@@ -1,4 +1,4 @@
-var models = require('./models');
+var models = require('./models/models.js');
 var Page = models.Page;
 var User = models.User;
 var app = require('./app');
@@ -12,4 +12,3 @@ User.sync()
             console.log('Server is listening on port 3001!');
         });
     });
-
